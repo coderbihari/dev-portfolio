@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilnawaj's Resume</title>
+    <link rel="stylesheet" href="css/resume.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-d"></i>
+                    <div class="logo-text">Dilnawaj Shahi</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="resume">
+                    <header>
+                        <h1>MD DILNAWAJ ALAM</h1>
+                        <p>Kolkata, West Bengal</p>
+                        <p>📞 +91-8862909367 | ✉ dilnawajshahi7@gmail.com</p>
+                    </header>
+            
+                    <section>
+                        <h2>EDUCATION</h2>
+                        <div class="education-item">
+                            <h3>St. Mary’s Technical Campus Kolkata (2022 - 2025)</h3>
+                            <p>Diploma in Computer Science and Technology (Pursuing)</p>
+                        </div>
+                        <div class="education-item">
+                            <h3>Miracle Public School, Kathiar (2020 - 2021)</h3>
+                            <p>Matriculation - Percentage: 80%</p>
+                        </div>
+                    </section>
+            
+                    <section>
+                        <h2>COURSEWORK</h2>
+                        <ul>
+                            <li>Data Structure and Algorithms</li>
+                            <li>Operating Systems</li>
+                            <li>Computer Networks</li>
+                            <li>Database Management System</li>
+                            <li>OOPs using Java</li>
+                        </ul>
+                    </section>
+
+                    <section></section>
+                        <h2>PROJECTS</h2>
+                        <ul>
+                            <li> Created a portfolio Website using HTML, CSS and JavaScript, where I have posted my projects.</li>
+                            <li>Created a simple calculator application using HTML, CSS and JavaScript.Implemented basic arithmetic operations like addition, subtraction, multiplication and division.</li>
+                            <li>Created a chatbot using HTML, CSS and JavaScript where users can chat with bot.</li>
+                        </ul>
+                    </section>
+            
+                    <section>
+                        <h2>TECHNICAL SKILLS</h2>
+                        <ul>
+                            <li>Programming Languages: HTML, CSS, JavaScript, C, Python, Java</li>
+                            <li>Frameworks: Bootstrap, Node.JS, Express JS</li>
+                            <li>Developer Tools: VS Code, IntelliJ IDEA, Github</li>
+                            <li>Libraries: MongoDB, React</li>
+                        </ul>
+                    </section>
+            
+                    <section>
+                        <h2>CERTIFICATES</h2>
+                        <ul>
+                            <li>Web Development Bootcamp by Udemy</li>
+                            <li>School Mathematics Olympiad</li>
+                            <li>English Literature Program</li>
+                        </ul>
+                    </section>
+            
+                    <section>
+                        <h2>EXTRA CURRICULAR ACTIVITIES</h2>
+                        <ul>
+                            <li>Comprehensive Communication Skills</li>
+                            <li>Cricketing Athlete</li>
+                            <li>Crypto Enthusiast</li>
+                        </ul>
+                    </section>
+            
+                    <section>
+                        <h2>LANGUAGES</h2>
+                        <ul>
+                            <li>English - Working Proficiency</li>
+                            <li>Hindi - Native</li>
+                            <li>Bengali - Speaking Proficiency</li>
+                        </ul>
+                    </section>
+            
+                </div>
+                 <p style="margin: 5px; text-align: center; color: white; ">&copy; 2024 Dilnawaj Shahi | All rights reserved.</p>
+
+                 <div class="social" style="text-align: center; margin-top: 2px; font-size: 25px;" >
+                    <a href="https://www.facebook.com/dilnawajshahi7?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/dilnawaj-shahi-81a561257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                    " target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/epic__creature?igsh=cHVxZXA1dzY4Z2pw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@codewithnawaj" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    
+                </div>
+     </div>
+    
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Software Developer","Web Developer","Blockchain Entusiat"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+     </script>
+</body>
+</html>

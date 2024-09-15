@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact with us</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/contatc.style.css">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-d"></i>
+                    <div class="logo-text">Dilnawaj Shahi</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="Html/portfolio.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="form-container">
+                <form id="contact-form" onsubmit="return validateContactForm()">
+                    <h1>Contact Us</h1>
+        
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your full name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Enter the subject" required>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+        
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6" placeholder="Enter your message" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+        
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        
+            
+            <script src="js/contact-script.js"></script>
+</body>
+</html>
+   

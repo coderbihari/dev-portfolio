@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog by Dilnawaj</title>
+   
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/blog.style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-d"></i>
+                    <div class="logo-text">Dilnawaj Shahi</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <body>
+            <div class="container">
+                
+                  <h1 style="color: white;">My Web Development Journey</h1>
+                
+                  <section id="blog-content">
+                    <article class="blog-post">
+                      <h2>Introduction to Web Development</h2>
+                      <p>Web development is an exciting and ever-evolving field. From the basics of HTML to complex server-side applications, there’s always something new to learn. I started my journey a few months ago, eager to dive into the world of code and create projects that could solve real-world problems.</p>
+                    </article>
+                
+                    <article class="blog-post">
+                      <h2>Learning HTML & CSS</h2>
+                      <p>HTML forms the backbone of the web. It’s the structure behind every webpage. After mastering HTML, I quickly transitioned to CSS, which is responsible for the styling and presentation. This combination allows me to turn plain text into visually appealing websites, making the user experience more engaging and user-friendly.</p>
+                    </article>
+                
+                    <article class="blog-post">
+                      <h2>Exploring JavaScript</h2>
+                      <p>JavaScript added life to my web pages. I began creating interactive features like buttons, forms, and dynamic content. JavaScript was challenging initially, but the more I practiced, the more I enjoyed solving problems and adding functionality to my projects.</p>
+                    </article>
+                
+                    <article class="blog-post">
+                      <h2>Building Projects</h2>
+                      <p>After getting comfortable with HTML, CSS, and JavaScript, I started building small projects like to-do lists, weather apps, and portfolio websites. Each project taught me something new about web development and coding best practices.</p>
+                    </article>
+                
+                    <article class="blog-post">
+                      <h2>The Future</h2>
+                      <p>My journey as a web developer is just beginning. I plan to learn more about server-side programming, databases, and modern JavaScript frameworks like React. The web development community is vast, and I’m excited to contribute, learn, and grow as a developer.</p>
+                    </article>
+                  </section>
+                
+                  <p style="margin: top 30px; text-align: center; color: white;">&copy; 2024 Dilnawaj Shahi | All rights reserved.</p>
+                
+                  
+                </body>
+                </html>
+                
+                    <div class="social" style="text-align: center; margin-top: 2px; font-size: 25px;" >
+                      <a href="https://www.facebook.com/dilnawajshahi7?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="https://www.linkedin.com/in/dilnawaj-shahi-81a561257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                      " target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                      <a href="https://www.instagram.com/epic__creature?igsh=cHVxZXA1dzY4Z2pw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.youtube.com/@codewithnawaj" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                      
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Software Developer","Web Developer","Blockchain Entusiat"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+     </script>
+</body>
+</html>
